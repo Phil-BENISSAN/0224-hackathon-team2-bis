@@ -25,7 +25,7 @@ export default function NavBar() {
       <li><Link className="font-bold">Accueil</Link></li>
       <li><Link to="/about" className="font-bold">A propos</Link></li>
       <li><Link to="/themes" className="font-bold">Test</Link></li>
-      <li><Link to="/question" className="font-bold">Entreprise</Link></li>
+      <li><Link to="/entreprise/wild_code_school" className="font-bold">Entreprise</Link></li>
       <li><Link className="btn btn-primary mx-2 text-accent font-bold text-lg">Se connecter</Link></li>
       {/* <li>
       <label className="grid cursor-pointer place-items-center">

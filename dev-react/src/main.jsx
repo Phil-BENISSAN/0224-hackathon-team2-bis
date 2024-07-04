@@ -18,8 +18,10 @@ import QuestionSqlCon from "./components/SQL/QuestionSqlCon";
 import QuestionSqlDeb from "./components/SQL/QuestionSqlDeb";
 import LevelPowerBI from "./components/LevelPowerBI/LevelPowerBI";
 import LevelSQL from "./components/LevelSQL/LevelSQL";
+import Entreprise from "./pages/Entreprise";
 
 import "./index.css";
+import Annonce from "./pages/Annonce";
 
 const router = createBrowserRouter([
   {
@@ -46,6 +48,14 @@ const router = createBrowserRouter([
       {
         path: "/themes",
         element: <Theme />
+      },
+      {
+        path: "/entreprise/wild_code_school",
+        element: <Entreprise />
+      },
+      {
+        path: "/entreprise/wild_code_school/CqInovDBV96hBZ5j7",
+        element: <Annonce />
       },
       {
         path: "/select_level_python",
