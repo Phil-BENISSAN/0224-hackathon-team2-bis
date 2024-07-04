@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { useNavigate, useLoaderData } from "react-router-dom";
 
 export default function QuestionPythonDeb() {
@@ -29,7 +29,7 @@ export default function QuestionPythonDeb() {
   const handleSubmit = (event) => {
     event.preventDefault();
     console.log("Form submitted", answers);
-    navigate("/");
+    navigate("/congratulation");
   };
 
   const currentQuestion = questions[questionIndex];

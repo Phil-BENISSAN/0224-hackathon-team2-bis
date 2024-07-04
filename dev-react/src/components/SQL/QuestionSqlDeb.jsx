@@ -29,7 +29,7 @@ export default function QuestionSqlDeb() {
   const handleSubmit = (event) => {
     event.preventDefault();
     console.log("Form submitted", answers);
-    navigate("/");
+    navigate("/congratulation");
   };
 
   const currentQuestion = questions[questionIndex];
