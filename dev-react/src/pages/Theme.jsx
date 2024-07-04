@@ -36,7 +36,7 @@ export default function Theme() {
         <div className="card bg-base-100 image-full w-96 shadow-xl">
           <figure>
             <img
-              src=""
+              src="src/assets/541959.jpg"
               alt=""
             />
           </figure>
@@ -56,7 +56,8 @@ export default function Theme() {
         <div className="card bg-base-100 image-full w-96 shadow-xl">
           <figure>
             <img
-              src=""
+            className="w-[224px]"
+              src="src/assets/round7.png"
               alt=""
             />
           </figure>
@@ -76,12 +77,12 @@ export default function Theme() {
         <div className="card bg-base-100 image-full w-96 shadow-xl">
           <figure>
             <img
-              src=""
+              src="src/assets/Power-BI-Symbol-2048x1152.png"
               alt=""
             />
           </figure>
           <div className="card-body">
-            <h2 className="card-title">POWER BI!</h2>
+            <h2 className="card-title">POWER BI !</h2>
             <p>If a dog chews shoes whose shoes does he choose?</p>
             <div className="card-actions justify-end">
               <button

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { useNavigate, useLoaderData } from "react-router-dom";
 
 export default function QuestionPythonInt() {
