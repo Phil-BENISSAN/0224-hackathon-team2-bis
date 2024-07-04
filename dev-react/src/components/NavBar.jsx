@@ -26,7 +26,7 @@ export default function NavBar() {
     <ul className="menu menu-horizontal px-1 [&>*]:text-accent [&>*]:text-xl">
       <li><Link className="font-bold">Accueil</Link></li>
       <li><Link to="/about" className="font-bold">A propos</Link></li>
-      <li><Link to="/question" className="font-bold">Test</Link></li>
+      <li><Link to="/themes" className="font-bold">Test</Link></li>
       <li><Link to="/question" className="font-bold">Entreprise</Link></li>
       <li><Link className="btn btn-primary mx-2 text-accent font-bold text-lg">Se connecter</Link></li>
       {/* <li>

@@ -1,4 +1,5 @@
 import { useNavigate } from "react-router-dom";
+import Rating from "../components/Rating"
 
 export default function Theme() {
   const navigate = useNavigate();
@@ -87,6 +88,10 @@ export default function Theme() {
             </button>
           </div>
         </div>
+      </div>
+      <div className="flex flex-col items-center justify-center gap bg-[#f8eeec] h-[800px]">
+        <h2 className="text-6xl mb-24 text-accent">Quelques chiffres de notre site</h2>
+        <Rating />
       </div>
     </main>
   );

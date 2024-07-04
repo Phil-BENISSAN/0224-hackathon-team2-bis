@@ -14,7 +14,7 @@ export default function Concept() {
           questionnaires à choix multiples (QCM) et des mises en situation
           réalistes.
         </p>
-        <Link className="btn btn-primary text-accent text-xl  my-10">
+        <Link to="/themes" className="btn btn-primary text-accent text-xl  my-10">
         Commencer le test --{">"}
         </Link>
       </div>
