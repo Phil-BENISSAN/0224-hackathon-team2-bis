@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -9,11 +9,10 @@ export default {
       {
         mytheme: {
           
-"primary": "#f07168",
+"primary": "#ffb782",
 "secondary": "#0081a8",
 "accent": "#43135b",
 "neutral": "#2f2f2f",
-"success": "#ffb782",
 "base-100": "#ffffff",
           },
         },
