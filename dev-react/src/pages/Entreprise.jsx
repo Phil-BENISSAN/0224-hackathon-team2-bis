@@ -116,7 +116,7 @@ export default function Entreprise() {
           {" "}
           <div className="modal-action">
             <form method="dialog">
-              <button className="btn btn-circle btn-outline ">
+              <button className="btn btn-circle btn-outline mt-[-30px] ">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   className="h-6 w-6"
@@ -135,50 +135,55 @@ export default function Entreprise() {
             </form>
           </div>
           <h3 className="font-bold text-lg">Poste recherché</h3>
-          <input
-            type="text"
-            placeholder="Tapez"
-            className="input input-bordered w-full max-w-xs mb-10"
-          />
+          <select className="select select-bordered w-full max-w-xs">
+  <option disabled selected>-</option>
+  <option>Développeur Front-End</option>
+  <option>Développeur Back-End</option>
+  <option>Développeur FullStack</option>
+  <option>UI/UX Designer</option>
+  <option>Data analyste</option>
+</select>
           <h3 className="font-bold text-lg ">Selectionnez au moins un test</h3>
           <div className="form-control">
             <label className="label cursor-pointer">
-              <span className="label-text">Remember me</span>
-              <input type="checkbox" defaultChecked className="checkbox" />
+              <span className="label-text">SOFT SKILLS</span>
+              <input type="checkbox" className="checkbox" />
             </label>
           </div>
           <div className="form-control">
             <label className="label cursor-pointer">
-              <span className="label-text">Remember me</span>
-              <input type="checkbox" defaultChecked className="checkbox" />
+              <span className="label-text">SQL</span>
+              <input type="checkbox" className="checkbox" />
             </label>
           </div>
           <div className="form-control">
             <label className="label cursor-pointer">
-              <span className="label-text">Remember me</span>
-              <input type="checkbox" defaultChecked className="checkbox" />
+              <span className="label-text">PYTHON</span>
+              <input type="checkbox" className="checkbox" />
             </label>
           </div>
           <div className="form-control">
             <label className="label cursor-pointer">
-              <span className="label-text">Git</span>
-              <input type="checkbox" defaultChecked className="checkbox" />
+              <span className="label-text">GIT</span>
+              <input type="checkbox" className="checkbox" />
             </label>
           </div>
           <div className="form-control">
             <label className="label cursor-pointer">
-              <span className="label-text">NodeJs</span>
-              <input type="checkbox" defaultChecked className="checkbox" />
+              <span className="label-text">React</span>
+              <input type="checkbox" className="checkbox" />
             </label>
           </div>
-          <button
-            className="btn btn-disabled"
-            tabIndex="-1"
-            role="button"
-            aria-disabled="true"
-          >
-            Valider
-          </button>
+          <div className="flex justify-center">
+            <button
+              className="btn btn-disabled m"
+              tabIndex="-1"
+              role="button"
+              aria-disabled="true"
+            >
+              Valider
+            </button>
+          </div>
         </div>
       </dialog>
     </main>

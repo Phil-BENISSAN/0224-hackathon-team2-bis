@@ -19,6 +19,7 @@ import QuestionSqlDeb from "./components/SQL/QuestionSqlDeb";
 import LevelPowerBI from "./components/LevelPowerBI/LevelPowerBI";
 import LevelSQL from "./components/LevelSQL/LevelSQL";
 import Entreprise from "./pages/Entreprise";
+import Annonce from "./pages/Annonce";
 
 import "./index.css";
 import Congrat from "./pages/Congrat";
