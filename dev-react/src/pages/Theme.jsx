@@ -9,6 +9,9 @@ export default function Theme() {
   };
   return (
     <main>
+            <h1 className="text-6xl text-center font-bold text-accent m-10 mt-16 mb-16">
+        Choisissez votre domaine d'expertise :
+      </h1>
       <div className="flex flex-wrap justify-center gap-4 m-8">
         <div className="card bg-base-100 image-full w-96 shadow-xl">
           <figure>
