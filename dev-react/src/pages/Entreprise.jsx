@@ -8,7 +8,7 @@ export default function Entreprise() {
   return (
     <main className="h-screen">
       <h1 className="text-6xl text-center font-bold text-accent m-10 mt-16 mb-10">
-        Bienvenue Wild Code School
+        Bienvenue Wild Code School !
       </h1>
       <p className="my-8 text-center text-accent text-xl mb-16">
         Choisissez ici le poste pour lequel vous souhaitez avoir un candidat :
@@ -105,13 +105,13 @@ export default function Entreprise() {
       </section>
       <div className="flex justify-center mt-11">
         <button
-          onClick={() => document.getElementById("my_modal_1").showModal()}
+          onClick={() => document.getElementById("new_job").showModal()}
           className="btn btn-primary text-accent text-xl  my-10"
         >
           Poster une nouvelle annonce +
         </button>
       </div>
-      <dialog id="my_modal_1" className="modal">
+      <dialog id="new_job" className="modal">
         <div className="modal-box">
           {" "}
           <div className="modal-action">
