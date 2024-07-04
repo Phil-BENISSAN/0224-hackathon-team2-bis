@@ -11,8 +11,8 @@ export default function LevelSQL() {
       <div className="card bg-base-100 image-full w-96 shadow-xl">
         <figure>
           <img
-            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-            alt="Shoes"
+            src="src/assets/541959.jpg"
+            alt=""
           />
         </figure>
         <div className="card-body">
@@ -23,7 +23,7 @@ export default function LevelSQL() {
               onClick={() => handleClick("/question_sql_1")}
               className="btn btn-primary"
             >
-              Buy Now
+              Commencer
             </button>
           </div>
         </div>
@@ -31,8 +31,8 @@ export default function LevelSQL() {
       <div className="card bg-base-100 image-full w-96 shadow-xl">
         <figure>
           <img
-            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-            alt="Shoes"
+            src="src/assets/541959.jpg"
+            alt=""
           />
         </figure>
         <div className="card-body">
@@ -43,7 +43,7 @@ export default function LevelSQL() {
               onClick={() => handleClick("/question_sql_2")}
               className="btn btn-primary"
             >
-              Buy Now
+              Commencer
             </button>
           </div>
         </div>
@@ -51,8 +51,8 @@ export default function LevelSQL() {
       <div className="card bg-base-100 image-full w-96 shadow-xl">
         <figure>
           <img
-            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-            alt="Shoes"
+            src="src/assets/541959.jpg"
+            alt=""
           />
         </figure>
         <div className="card-body">
@@ -63,7 +63,7 @@ export default function LevelSQL() {
               onClick={() => handleClick("/question_sql_3")}
               className="btn btn-primary"
             >
-              Buy Now
+              Commencer
             </button>
           </div>
         </div>
