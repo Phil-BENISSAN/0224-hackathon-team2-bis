@@ -29,7 +29,7 @@ export default function Question() {
     event.preventDefault();
 
     console.log("Form submitted", answers);
-    navigate("/");
+    navigate("/congratulation");
   };
 
   const currentQuestionKey = `${questionIndex}`;

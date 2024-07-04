@@ -20,6 +20,7 @@ import LevelPowerBI from "./components/LevelPowerBI/LevelPowerBI";
 import LevelSQL from "./components/LevelSQL/LevelSQL";
 
 import "./index.css";
+import Congrat from "./pages/Congrat";
 
 const router = createBrowserRouter([
   {
@@ -65,6 +66,10 @@ const router = createBrowserRouter([
       {
         path: "/select_level_sql",
         element: <LevelSQL />,
+      },
+      {
+        path:"/congratulation",
+        element: <Congrat />
       },
       {
         path: "question_sql_3",
