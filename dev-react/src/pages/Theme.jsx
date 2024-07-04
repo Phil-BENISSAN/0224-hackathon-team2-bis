@@ -9,16 +9,13 @@ export default function Theme() {
   };
   return (
     <main>
-            <h1 className="text-6xl text-center font-bold text-accent m-10 mt-16 mb-16">
+      <h1 className="text-6xl text-center font-bold text-accent m-10 mt-16 mb-16">
         Choisissez votre domaine d'expertise :
       </h1>
       <div className="flex flex-wrap justify-center gap-4 m-8">
         <div className="card bg-base-100 image-full w-96 shadow-xl">
           <figure>
-            <img
-              src=""
-              alt=""
-            />
+            <img src="" alt="" />
           </figure>
           <div className="card-body">
             <h2 className="card-title">SOFT SKILLS !</h2>
@@ -97,7 +94,7 @@ export default function Theme() {
       </div>
       <div className="flex flex-col items-center justify-center gap bg-[#f8eeec] h-[800px]">
         <h2 className="text-6xl text-accent mb-4">
-          Quelques chiffres de notre site
+          Notre site en quelques chiffres
         </h2>
         <p className="mb-24 w-[700px]">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas
