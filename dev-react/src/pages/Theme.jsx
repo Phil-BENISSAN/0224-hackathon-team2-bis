@@ -15,11 +15,11 @@ export default function Theme() {
       <div className="flex flex-wrap justify-center gap-4 m-8">
         <div className="card bg-base-100 image-full w-96 shadow-xl">
           <figure>
-            <img src="" alt="" />
+            <img src="https://cdn.discordapp.com/attachments/1257972687305707567/1258684375596273664/soft-skills-Logo-Kategorien-removebg-preview.png?ex=6688f0ac&is=66879f2c&hm=383a013737a18e3e2ea94dd3cd66db6b17e3f8cda17f866d8de61e08c2ccc184&" alt="" className="w-[50%]" />
           </figure>
-          <div className="card-body">
+          <div className="card-body [&>*]:text-base-100">
             <h2 className="card-title">SOFT SKILLS !</h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <p>Évaluez vos soft skills avec des mises en situation variées</p>
             <div className="card-actions justify-end">
               <button
                 onClick={() => handleClick("/question")}
@@ -37,7 +37,7 @@ export default function Theme() {
               alt=""
             />
           </figure>
-          <div className="card-body">
+          <div className="card-body [&>*]:text-base-100">
             <h2 className="card-title">SQL !</h2>
             <p>If a dog chews shoes whose shoes does he choose?</p>
             <div className="card-actions justify-end">
@@ -58,7 +58,7 @@ export default function Theme() {
               alt=""
             />
           </figure>
-          <div className="card-body">
+          <div className="card-body [&>*]:text-base-100">
             <h2 className="card-title">PYTHON !</h2>
             <p>If a dog chews shoes whose shoes does he choose?</p>
             <div className="card-actions justify-end">
@@ -78,7 +78,7 @@ export default function Theme() {
               alt=""
             />
           </figure>
-          <div className="card-body">
+          <div className="card-body [&>*]:text-base-100">
             <h2 className="card-title">POWER BI !</h2>
             <p>If a dog chews shoes whose shoes does he choose?</p>
             <div className="card-actions justify-end">
