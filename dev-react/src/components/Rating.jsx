@@ -4,22 +4,22 @@ export default function Rating() {
       <div className="stat w-80">
         <div className="stat-figure text-primary">
         </div>
-        <div className="stat-title">Page Views</div>
-        <div className="stat-value text-accent text-6xl">25.6K</div>
+        <div className="stat-title">Offres postées</div>
+        <div className="stat-value text-accent text-6xl">145</div>
       </div>
 
       <div className="stat w-80">
         <div className="stat-figure text-secondary">
         </div>
-        <div className="stat-title">Page Views</div>
-        <div className="stat-value text-accent text-6xl">2.6M</div>
+        <div className="stat-title">Tests effectués</div>
+        <div className="stat-value text-accent text-6xl">25M+</div>
       </div>
 
       <div className="stat w-80">
         <div className="stat-figure text-secondary">
         </div>
-        <div className="stat-title">Tasks done</div>
-        <div className="stat-value text-accent text-6xl">86%</div>
+        <div className="stat-title">Recrutement réussi</div>
+        <div className="stat-value text-accent text-6xl">92%</div>
       </div>
     </div>
   );

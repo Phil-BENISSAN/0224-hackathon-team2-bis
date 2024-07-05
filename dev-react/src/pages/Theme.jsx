@@ -19,7 +19,7 @@ export default function Theme() {
           </figure>
           <div className="card-body">
             <h2 className="card-title">SOFT SKILLS !</h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <p>Révélez l'humain derrière les compétences ! Très recherchés, les soft skills sont un incontournable pour vous démarquer.</p>
             <div className="card-actions justify-end">
               <button
                 onClick={() => handleClick("/question")}
@@ -39,7 +39,7 @@ export default function Theme() {
           </figure>
           <div className="card-body">
             <h2 className="card-title">SQL !</h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <p>La manipulation de bases de données n'a aucun secret pour vous ? Venez prouvez vos compétences ici !</p>
             <div className="card-actions justify-end">
               <button
                 onClick={() => handleClick("/select_level_sql")}
@@ -60,7 +60,7 @@ export default function Theme() {
           </figure>
           <div className="card-body">
             <h2 className="card-title">PYTHON !</h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <p>Langage de programmation populaire et incontournable. Testez-vous !</p>
             <div className="card-actions justify-end">
               <button
                 onClick={() => handleClick("/select_level_python")}
@@ -97,10 +97,7 @@ export default function Theme() {
           Notre site en quelques chiffres
         </h2>
         <p className="mb-24 w-[700px]">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas
-          dolorem quibusdam debitis! Corporis hic eius illo blanditiis sint
-          architecto, temporibus dolores quasi possimus distinctio tenetur
-          deserunt aspernatur sequi voluptatibus quaerat?
+        Voici les données que nous avons enregistrées pour votre entreprise tout au long de notre collaboration.
         </p>
         <Rating />
       </div>
