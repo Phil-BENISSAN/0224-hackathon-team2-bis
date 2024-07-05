@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 export default function Annonce() {
         const [isVisible, setIsVisible] = useState(true);
@@ -19,9 +19,9 @@ export default function Annonce() {
         <div className="card bg-base-100 w-96 shadow-xl">
           <figure>
             <img
-              src="https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?q=80&w=1727&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              alt="Shoes"
-              className=" aspect-video"
+              src="\src\pages\profil.webp"
+              alt=""
+              className="h-56 w-80"
             />
           </figure>
           <div className="card-body">
@@ -38,10 +38,10 @@ export default function Annonce() {
         {isVisible && (
         <div className="card bg-base-100 w-96 shadow-xl">
           <figure>
-            <img
-              src="https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?q=80&w=1727&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              alt="Shoes"
-              className=" aspect-video"
+          <img
+              src="\src\pages\profil.webp"
+              alt=""
+              className="h-56 w-80"
             />
           </figure>
           <div className="card-body">
@@ -58,10 +58,10 @@ export default function Annonce() {
         )}
         <div className="card bg-base-100 w-96 shadow-xl">
           <figure>
-            <img
-              src="https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?q=80&w=1727&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              alt="Shoes"
-              className=" aspect-video"
+          <img
+              src="\src\pages\profil.webp"
+              alt=""
+              className="h-56 w-80"
             />
           </figure>
           <div className="card-body">
@@ -77,10 +77,10 @@ export default function Annonce() {
         </div>
         <div className="card bg-base-100 w-96 shadow-xl">
           <figure>
-            <img
-              src="https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?q=80&w=1727&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              alt="Shoes"
-              className=" aspect-video"
+          <img
+              src="\src\pages\profil.webp"
+              alt=""
+              className="h-56 w-80"
             />
           </figure>
           <div className="card-body">
@@ -109,10 +109,10 @@ export default function Annonce() {
         </div>
         <div className="card bg-base-100 w-96 shadow-xl">
           <figure>
-            <img
-              src="https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?q=80&w=1727&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-              alt="Shoes"
-              className=" aspect-video"
+          <img
+              src="\src\pages\profil.webp"
+              alt=""
+              className="h-56 w-80"
             />
           </figure>
           <div className="card-body">
