@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Footer() {
   return (
-<footer className="footer bg-neutral text-neutral-content items-center h-40 p-4 pl-32">
+<footer className="footer static bg-neutral text-neutral-content items-center h-40 p-4 pl-32">
   <aside className="grid-flow-col items-center">
 <img src="https://cdn.discordapp.com/attachments/1257972687305707567/1258333881518788648/Plan_de_travail_1_copie_3.png?ex=6687aa40&is=668658c0&hm=86b41474efefda5ca685a57cd15e65ccd7fa199f599a686e7e8a1e27b7c78d5d&" alt="" className='h-[5rem]'/>
     <p>Copyright © ${new Date().getFullYear()} - All right reserved</p>
