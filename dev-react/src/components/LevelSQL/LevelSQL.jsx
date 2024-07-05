@@ -17,7 +17,7 @@ export default function LevelSQL() {
         </figure>
         <div className="card-body">
           <h2 className="card-title">LEVEL 1 !</h2>
-          <p>If a dog chews shoes whose shoes does he choose?</p>
+          <p> Débutant : Requêtes simples et création de tables.</p>
           <div className="card-actions justify-end">
             <button
               onClick={() => handleClick("/question_sql_1")}
@@ -37,7 +37,7 @@ export default function LevelSQL() {
         </figure>
         <div className="card-body">
           <h2 className="card-title">LEVEL 2 !</h2>
-          <p>If a dog chews shoes whose shoes does he choose?</p>
+          <p> intermédiaire : Filtres, jointures et premières explorations poussées des tables.</p>
           <div className="card-actions justify-end">
             <button
               onClick={() => handleClick("/question_sql_2")}
@@ -57,7 +57,7 @@ export default function LevelSQL() {
         </figure>
         <div className="card-body">
           <h2 className="card-title">LEVEL 3 !</h2>
-          <p>If a dog chews shoes whose shoes does he choose?</p>
+          <p>Filtres avancés, fonctions d’agrégation et méthodes avancées.</p>
           <div className="card-actions justify-end">
             <button
               onClick={() => handleClick("/question_sql_3")}

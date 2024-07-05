@@ -14,7 +14,7 @@ export default function Level_python() {
         </figure>
         <div className="card-body">
           <h2 className="card-title">LEVEL 1 !</h2>
-          <p>If a dog chews shoes whose shoes does he choose?</p>
+          <p>Débutant : Connaissance des variables, fonctions et de la syntaxe de base de python... Tout ce qu'il faut pour bien commencer dans Python.</p>
           <div className="card-actions justify-end">
             <button
               onClick={() => handleClick("/question_python_1")}
