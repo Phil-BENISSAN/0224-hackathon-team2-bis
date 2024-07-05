@@ -80,7 +80,7 @@ export default function Theme() {
           </figure>
           <div className="card-body [&>*]:text-base-100">
             <h2 className="card-title">POWER BI !</h2>
-            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <p>Outils de datavisualisation et de reporting aussi populaire que pratique. Faites vos preuves !</p>
             <div className="card-actions justify-end">
               <button
                 onClick={() => handleClick("/select_level_powerBI")}
