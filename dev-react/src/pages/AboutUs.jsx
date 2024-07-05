@@ -1,6 +1,6 @@
 export default function AboutUs() {
   return (
-    <main>
+    <main className="mb-20">
       <h1 className="text-6xl text-center font-bold text-accent m-10 mt-16 mb-4">
         Bienvenue chez Accessibil IT !
       </h1>
@@ -86,9 +86,9 @@ export default function AboutUs() {
           <article className="">
             <div className="">
               <img
-                src="https://randomuser.me/api/portraits/men/49.jpg"
+                src="https://cdn.discordapp.com/attachments/1257972687305707567/1258689008905621516/photo-cv.jpg?ex=6688f4fd&is=6687a37d&hm=d06429a5425bb6c2c842ff53c3d4661610c2b3346fbaab3b125102f984eba1cf&"
                 alt=""
-                className="rounded-full w-80"
+                className="rounded-full h-80 w-80"
               />
               <h2 className="text-center text-[20px] font-bold">Teodora Tache</h2>
               <p className="text-center text">UX/UI Designer</p>
@@ -97,9 +97,9 @@ export default function AboutUs() {
           <article className="">
             <div className="">
               <img
-                src="https://randomuser.me/api/portraits/men/49.jpg"
+                src="https://cdn.discordapp.com/attachments/1257972687305707567/1258688778147463188/IMG_20220425_094419.png?ex=6688f4c6&is=6687a346&hm=52de55981643f30f7dfb0c13ffe9c1b196329f5018800afe5a103635b1e70e63&"
                 alt=""
-                className="rounded-full w-80"
+                className="rounded-full h-80 w-80"
               />
               <h2 className="text-center text-[20px] font-bold">Anthony Robert</h2>
               <p className="text-center text">Data analyst</p>
@@ -108,9 +108,9 @@ export default function AboutUs() {
           <article className="">
             <div className="">
               <img
-                src="https://randomuser.me/api/portraits/men/49.jpg"
+                src="https://cdn.discordapp.com/attachments/1257972687305707567/1258507385799049226/IMG20221223172305.jpg?ex=66884bd6&is=6686fa56&hm=193db870b6a49fac16fe6754fd767b78e4e86fcbd70c9babafc38bdf54f578dd&"
                 alt=""
-                className="rounded-full w-80"
+                className="rounded-full h-80 w-80"
               />
               <h2 className="text-center text-[20px] font-bold">Quentin Tru Tran Huu</h2>
               <p className="text-center text">Data analyst</p>
@@ -119,9 +119,9 @@ export default function AboutUs() {
           <article className="">
             <div className="">
               <img
-                src="https://randomuser.me/api/portraits/men/49.jpg"
+                src="https://fabienrollet.fr/profil.png"
                 alt=""
-                className="rounded-full w-80"
+                className="rounded-full h-80 w-80"
               />
               <h2 className="text-center text-[20px] font-bold">Fabien Rollet</h2>
               <p className="text-center text">Développeur WEB Full Stack</p>
@@ -130,9 +130,9 @@ export default function AboutUs() {
           <article className="">
             <div className="">
               <img
-                src="https://randomuser.me/api/portraits/men/49.jpg"
+                src="https://cdn.discordapp.com/attachments/1257972687305707567/1258688816232009798/profilepic26.jpg?ex=6688f4cf&is=6687a34f&hm=bebdb02d02166e3b8f08ed81081a86ea8cbd090a5edddb4d67b1283b270501f1&"
                 alt=""
-                className="rounded-full w-80"
+                className="rounded-full h-80 w-80"
               />
               <h2 className="text-center text-[20px] font-bold">Alexendre Moro</h2>
               <p className="text-center text">Développeur WEB Full Stack</p>

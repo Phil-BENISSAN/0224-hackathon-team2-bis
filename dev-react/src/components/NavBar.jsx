@@ -1,33 +1,61 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 export default function NavBar() {
-    // const [isDarkTheme, setIsDarkTheme] = useState(false);
+  const location = useLocation();
+  const currentPath = location.pathname;
+  const isWildCodeSchoolPath = currentPath.startsWith('/entreprise/wild_code_school');
+  const buttonText = isWildCodeSchoolPath ? 'Se déconnecter' : 'Se connecter';
+  // const [isDarkTheme, setIsDarkTheme] = useState(false);
 
-    // const handleThemeChange = () => {
-    //   setIsDarkTheme((prevTheme) => !prevTheme);
-    // };
-  
-    // useEffect(() => {
-    //   themeChange(isDarkTheme);
-    // }, [isDarkTheme]);
-  
-    // const themeChange = (isDarkTheme) => {
-    //   const root = document.documentElement;
-    //   root.setAttribute("data-theme", isDarkTheme ? "base-100" : "neutral");
-    // };
+  // const handleThemeChange = () => {
+  //   setIsDarkTheme((prevTheme) => !prevTheme);
+  // };
+
+  // useEffect(() => {
+  //   themeChange(isDarkTheme);
+  // }, [isDarkTheme]);
+
+  // const themeChange = (isDarkTheme) => {
+  //   const root = document.documentElement;
+  //   root.setAttribute("data-theme", isDarkTheme ? "base-100" : "neutral");
+  // };
   return (
     <div className=" flex items-center sticky top-0 z-[21] bg-[#f8eeec] border-b border-accent ">
-  <div className="flex-1 items-center">
-    <Link to="/"><img src="https://cdn.discordapp.com/attachments/1257972687305707567/1258344196952162336/Logo.png?ex=6687b3db&is=6686625b&hm=fed8b59876a20f90cb9d4be1af9ca9e100d8dadc89660be95de5d1bc5897f31d&" alt="" className=" w-40 m-0 p-0 ml-28 h-20" /></Link>
-  </div>
-  <div className="flex-none mr-28">
-    <ul className="menu menu-horizontal px-1 [&>*]:text-accent [&>*]:text-xl">
-      <li><Link className="font-bold">Accueil</Link></li>
-      <li><Link to="/about" className="font-bold">A propos</Link></li>
-      <li><Link to="/themes" className="font-bold">Test</Link></li>
-      <li><Link to="/entreprise/wild_code_school" className="font-bold">Entreprise</Link></li>
-      <li><Link className="btn btn-primary mx-2 text-accent font-bold text-lg">Se connecter</Link></li>
-      {/* <li>
+      <div className="flex-1 items-center">
+        <Link to="/">
+          <img
+            src="https://cdn.discordapp.com/attachments/1257972687305707567/1258344196952162336/Logo.png?ex=6687b3db&is=6686625b&hm=fed8b59876a20f90cb9d4be1af9ca9e100d8dadc89660be95de5d1bc5897f31d&"
+            alt=""
+            className=" w-40 m-0 p-0 ml-28 h-20"
+          />
+        </Link>
+      </div>
+      <div className="flex-none mr-28">
+        <ul className="menu menu-horizontal px-1 [&>*]:text-accent [&>*]:text-xl">
+          <li>
+            <Link className="font-bold">Accueil</Link>
+          </li>
+          <li>
+            <Link to="/about" className="font-bold">
+              A propos
+            </Link>
+          </li>
+          <li>
+            <Link to="/themes" className="font-bold">
+              Test
+            </Link>
+          </li>
+          <li>
+            <Link to="/entreprise/wild_code_school" className="font-bold">
+              Entreprise
+            </Link>
+          </li>
+          <li>
+            <Link className="btn btn-primary mx-2 text-accent font-bold text-lg">
+              {buttonText}
+            </Link>
+          </li>
+          {/* <li>
       <label className="grid cursor-pointer place-items-center">
           <input
             type="checkbox"
@@ -68,8 +96,8 @@ export default function NavBar() {
           </svg>
         </label>
       </li> */}
-    </ul>
-  </div>
-</div>
+        </ul>
+      </div>
+    </div>
   );
 }
